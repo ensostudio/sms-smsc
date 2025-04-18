@@ -1,0 +1,31 @@
+{
+  "name": "ensostudio/sms-smsc",
+  "type": "library",
+  "homepage": "https://github.com/ensostudio/sms-smsc",
+  "description": "smsc.ru gateway for ensostudio/sms",
+  "keywords": ["smsc", "smsc.ru", "sms", "sms gateway", "php"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Enso studio",
+      "email": "info@ensostudio.ru",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "ensostudio/sms": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "EnsoStudio\\Sms\\Gateway": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "EnsoStudio\\Sms\\Gateway": "tests/"
+    }
+  }
+}

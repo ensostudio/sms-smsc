@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "EnsoStudio\\Sms\\Gateway": "src/"
+      "EnsoStudio\\Sms\\Gateway\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "EnsoStudio\\Sms\\Gateway": "tests/"
+      "EnsoStudio\\Sms\\Gateway\\": "tests/"
     }
   }
 }
